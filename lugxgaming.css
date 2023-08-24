@@ -1,0 +1,643 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(250, 245, 230, 1);
+}
+.bagroungimg{
+    height: 800px;
+    width: 100%;
+    position: relative;
+    
+}
+span{
+    color: orange;
+}
+.bg-img{
+    height: 100%;
+    width: 100%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.nav-img{
+    height: 70px;
+    width: 80px;
+   border-radius: 50%;
+   
+}
+.nav{
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    top: 15px;
+   color: #fff;
+   /* background-color: rgb(165, 165, 52); */
+}
+.logo{
+    display: flex;
+    padding-left: 20px;
+}
+h1{
+    font-family: 'Cinzel', serif;
+   
+}
+.navbar{
+   padding-left: 52%;
+   position: absolute;
+   top: 15px;
+}
+ul{
+    list-style-type: none;
+  
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    /* padding-left: 10px; */
+    padding-right: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    /* letter-spacing: 1px; */
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    /* transition: all 3s; */
+}
+a:hover{
+    color: rgb(180, 6, 180);
+}
+a::after{
+    content: "";
+    height: 3px;
+    width: 0%;
+    background-color: #fff;
+    display: block;
+    position: absolute;
+    left: 0;
+    transition: all 3s;
+}
+a:hover::after{
+    width: 100%;
+    
+}
+
+li{
+    display: inline;  
+}
+.div1{
+    position: absolute;
+    top: 180px;
+    color: #fff;
+    width: 50%;
+    height: 250px;
+    padding-left: 50px;
+    float: left;
+}
+h2{
+    font-family: 'Cinzel', serif;
+    padding-top: 18px;
+    color: orange;
+    
+}
+h4{
+   
+    font-family: 'Roboto', sans-serif;  
+}
+p{
+    padding-top: 20px;
+    font-family: 'Handjet', cursive;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.type{
+    padding-top: 30px;
+    padding-left: 35px;
+   
+}
+
+input{
+    height: 35px;
+    width: 400px;
+    border-radius: 12px;
+    border: 2px solid orange;
+}
+
+input::placeholder{
+    text-align: center;
+    font-size: 15px;
+}
+.now{
+    background-color: rgb(238, 157, 6);
+    color: #fff;
+    font-family: 'Cinzel', serif;
+    height: 33px;
+    width: 120px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 2px solid orange;
+}
+.div2{
+    height: 550px;
+    width: 40%;
+   position: absolute;
+   top: 100px;
+   float: left;
+   margin-left: 58%; 
+  
+   
+}
+.b{
+    border-radius: 20px;
+}
+.lug-img{
+    /* height: 50px;
+    width: 88%;
+    float: left;
+    padding-left: 150px;
+    border-radius: 20px; */
+   
+}
+.midale{
+    height: 150px;
+    width: 95%;
+    position: absolute;
+   top: 700px;
+   color: #fff;
+   margin-left: 65px;
+  
+}
+.storage{
+    height: 170px;
+    width: 22%;
+    float: left;
+    background-color: #fff;
+    border-radius: 15px;
+    text-align: center; 
+    padding-top: 35px;
+   
+}
+.fa-warehouse{
+    color: #fff;
+    padding-top: 18px;
+    height: 60px;
+    width: 80px;
+    font-size: 26px;
+    background-color: #495fdb;
+    border-radius: 50%;
+}
+h5{
+    color: #000;
+    padding-top: 15px;
+    font-size:18px;
+}
+.fa-user{
+    color: #fff;
+    padding-top: 18px;
+    height: 60px;
+    width: 80px;
+    font-size: 26px;
+    background-color: #495fdb;
+    border-radius: 50%;
+    
+}
+.user{
+    height: 170px;
+    width: 22%;
+    float: left;
+    background-color: #fff;
+    border-radius: 15px;
+    text-align: center; 
+    padding-top: 35px;
+    margin-left: 25px;
+}
+
+.ready{
+    height: 170px;
+    width: 22%;
+    float: left;
+    background-color: #fff;
+    border-radius: 15px;
+    text-align: center; 
+    padding-top: 35px;
+    margin-left: 25px;
+}
+
+.fa-play{
+    color: #fff;
+    padding-top: 18px;
+    height: 60px;
+    width: 80px;
+    font-size: 26px;
+    background-color: #495fdb;
+    border-radius: 50%;
+}
+
+.layout{
+    height: 170px;
+    width: 22%;
+    float: left;
+    background-color: #fff;
+    border-radius: 15px;
+    text-align: center; 
+    padding-top: 35px;
+    margin-left: 25px; 
+}
+
+.fa-file-lines{
+    color: #fff;
+    padding-top: 18px;
+    height: 60px;
+    width: 80px;
+    font-size: 26px;
+    background-color: #495fdb;
+    border-radius: 50%;
+}
+.trending{
+    height: 600px;
+    width: 100%;
+    position: relative;
+   
+}
+.games{
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    top: 200px; 
+  
+}
+
+.view{
+    color: red;
+    margin-left: 72%; 
+}
+
+.tree{
+  color: #000;
+  margin-top: 100px;
+  display: inline;
+  padding-left: 25px;
+}
+
+.actoins{
+    height: 300px;
+    width: 100%;
+     /* background: #000;  */
+    position: absolute;
+    top: 280px;
+}
+
+.shopping{
+    height: 300px;
+    width: 30%;
+    /* background-color: aquamarine; */
+    margin-left: 25px;
+    float: left;
+}
+.dota-img{
+    height: 190px;
+    border-radius: 30px;
+    float: left;
+    
+}
+
+
+.alt{
+    font-size: 15px;
+    color: rgb(179, 177, 177);
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 180px;
+}
+ .heor{
+    position: absolute;
+    top: 220px;
+    padding-left: 18px;
+   
+ }
+
+ .gametrails{
+    position: relative;
+    height: 380px;
+    width: 100%;
+ }
+
+ .heading{
+    height: 70px;
+    width: 100%;
+    /* background-color: aquamarine; */
+ }
+ .trails{
+    font-size: 22px;
+    padding-left: 18px;
+    text-shadow: 8px 8px 5px rgb(252, 164, 2);
+ }
+  
+.trails1{
+    height: 250px;
+    width: 31%;
+    /* background-color: aqua; */
+   margin-left: 25px;
+   float: left;
+}
+
+video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.assassinbtn{
+    color: #fff;
+    background: transparent;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 5px;
+    position: absolute;
+    left: 22%;
+    top: 74%;
+    cursor: pointer;
+}
+
+.trails2{
+    height: 250px;
+    width: 31%;
+    /* background-color: aqua; */
+   margin-left: 25px;
+   float: left;
+}
+
+.assassinbtn2{
+    color: #fff;
+    background: transparent;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 5px;
+    position: absolute;
+    left: 55%;
+    top: 74%;
+    cursor: pointer;
+}
+
+.trails3{
+    height: 250px;
+    width: 31%;
+    /* background-color: aqua; */
+   margin-left: 25px;
+   float: left;
+}
+
+.assassinbtn3{
+    color: #fff;
+    background: transparent;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 5px;
+    position: absolute;
+    left: 88%;
+    top: 74%;
+    cursor: pointer;
+}
+
+.mostplay{
+    clear: both;
+    position: relative;
+    height: 400px;
+    width: 100%;
+    /* background-color: bisque; */
+}
+.aavatar{
+    width: 100%;
+    height: 80px;
+ 
+}
+.offical{
+  margin-left: 40px;
+  color: plum;
+  text-align: center;
+}
+.q{
+    height: 200px;
+    width: 30%;
+    /* background-color: aquamarine; */
+    margin-left: 25px;
+    float: left;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 18px;
+    float: left;
+}
+.battalebtn{
+  background-color: transparent;
+   color: #fff;
+   border: 1px solid #fff;
+   font-weight: 600;
+   font-family: sans-serif;
+   cursor: pointer;
+  padding: 6px;
+  border-radius: 5px;
+  position: absolute;
+  left: 25%;
+  top: 48%;
+}
+
+.w{
+    height: 200px;
+    width: 30%;
+    /* background-color: aquamarine; */
+    margin-left: 25px;
+    float: left;
+}
+
+.battalebtn1{
+    background-color: transparent;
+     color: #fff;
+     border: 1px solid #fff;
+     font-weight: 600;
+     font-family: sans-serif;
+     cursor: pointer;
+    padding: 6px;
+    border-radius: 5px;
+    position: absolute;
+    left: 57%;
+    top: 48%;
+  }
+
+  .e{
+    height: 200px;
+    width: 30%;
+    /* background-color: aquamarine; */
+    margin-left: 25px;
+    float: left;
+}
+
+.battalebtn2{
+    background-color: transparent;
+     color: #fff;
+     border: 1px solid #fff;
+     font-weight: 600;
+     font-family: sans-serif;
+     cursor: pointer;
+    padding: 6px;
+    border-radius: 5px;
+    position: absolute;
+    left: 88%;
+    top: 48%;
+  }
+
+  .raw{
+    height: 300px;
+    width: 100%;
+    /* background-color: #000; */
+    position: absolute;
+    top: 2100px;
+   
+  }
+
+  .jusymain{
+    position: relative;
+    height: 500px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    top: 135px;
+    padding-top: 90px;
+    padding-left: 22%;
+    
+  }
+
+  .c{
+    height: 400px;
+    width: 50%;
+    text-align: center;
+    margin-top: 15px;
+    
+    
+  }
+
+  .oderbuy{
+    height: 400px;
+    width: 30%;
+    background-color: #fff;
+    position: relative;
+   bottom: 250px;
+   border-radius: 15px;
+    margin-left: 100px;
+ 
+  }
+  .go{
+    padding-left: 55px;
+    padding-top: 30px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+  }
+  .blue{
+    color: #495fdb;
+  }
+
+  .ourshopx{
+    padding-left: 55px;
+    padding-top: 70px;
+    font-size: 20px;
+    color: maroon;
+  }
+
+  .dolor{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding-left: 25px;
+    padding-top: 55px;
+    font-weight: 500;
+    
+  }
+
+  .inventore{
+    background-color: #495fdb;
+    color: #fff;
+    padding: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: 25px;
+    border-radius: 3px;
+  }
+
+  .subscribe{
+    height: 330px;
+    width: 30%;
+    position: relative;
+    bottom: 450px;
+    border-radius: 10px;
+    background: #ffe;
+    margin-left: 550px;
+    
+  }
+
+  .newsletter{
+    padding-top: 25px;
+    padding-left: 20px;
+    font-size: 18px;
+    color:darkred ;
+  }
+  .uotooff{
+    font-size: 18px;
+    color: black;
+   padding-left: 20px;
+   padding-top: 28px;
+   letter-spacing: 1px;
+   word-spacing: 2px;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 28px;
+  }
+  .xyz{
+    color: #495fdb;
+    padding-left: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .nml{
+    height: 28px;
+    width: 250px;
+   margin-top: 30px;
+   border: 2px solid black;
+   margin-left: 20px;
+  }
+  .ujk{
+    background-color: transparent;
+    color: black;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+    border-radius: 20px;
+  }
+
+  .fa-ghost{
+    padding-top: 35px;
+    color: #000;
+    font-size: 30px;
+    padding-left: 45px;
+  }
+
+  .fa-dragon{
+   color: darkred;
+   font-size: 30px;
+   padding-left: 18px;
+  }
+
+  .fa-xbox{
+    color: lightgreen;
+    font-size: 30px;
+    padding-left: 18px;
+  }
+
+.fa-gamepad{
+    color: #495fdb;
+    font-size: 30px;
+    padding-left: 18px;
+}
